@@ -10,9 +10,9 @@ import lombok.NoArgsConstructor;
  * Blog: http://www.54tianzhisheng.cn/tags/Flink/
  */
 
-@Data
-@AllArgsConstructor
-@NoArgsConstructor
+@Data       // 配合lombok 省略set，get方法
+@AllArgsConstructor    //  有参构造器
+@NoArgsConstructor     //  无参构造器
 public class Student {
     public int id;
     public String name;
